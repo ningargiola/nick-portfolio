@@ -32,7 +32,7 @@ const Stairs = () => {
     {[...Array(6)].map((_,index) => {
         return (
             <motion.div
-                keys={index}
+                key={index}
                 variants={stairAnimation}
                 initial="initial"
                 animate="animate"
