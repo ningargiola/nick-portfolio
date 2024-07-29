@@ -1,7 +1,7 @@
 "use client";
 
-import {FaHtml5, FaCss3, FaJs, FaReact, FaPython, FaJava} from "react-icons/fa";
-import {SiNextDotJs, SiTailwindcss, SiNodeDotJs} from "react-icons/si";
+import {FaHtml5, FaCss3, FaJs, FaReact, FaPython, FaJava, FaCPP} from "react-icons/fa";
+import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
 // about data 
 const about= {
@@ -95,6 +95,14 @@ const skills = {
         {
             icon: <FaReact />,
             name: 'React',
+        },
+        {
+            icon: <SiTailwindcss />,
+            name: 'Tailwind CSS',
+        },
+        {
+            icon: <SiNextdotjs />,
+            name: 'Next.js',
         },
     ],
 };
