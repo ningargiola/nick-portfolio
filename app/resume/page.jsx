@@ -7,7 +7,7 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 const about= {
     title:'About Me',
     description:
-    "I am a junior computer science and am passionate about programming. I am currently looking for an internship to expand my knolwwdge and experience.",
+    "As a third-year Computer Science student at San Diego State University, I am actively searching for internship opportunities to expand my experience and apply my knowledge in web design/development, machine learning, and programming. I have several personal projects that showcase my desire to continuously learn and enhance my skills.",
     info:[
         {
             fieldName: "Name",
@@ -35,7 +35,7 @@ const about= {
 // experience data 
 const experience = {
     icon: 'assets/resume/badge.svg',
-    title: 'My experience',
+    title: 'My Experience',
     description: 'I worked as a web design intern at Take Trips MES. I was responsible for designing and maintaining the front end of the website. I am currently a CTO for the merchandising company Rage State based out of San Diego California',
     items: [
         {
@@ -55,7 +55,7 @@ const experience = {
 // education data
 const education = {
     icon: 'assets/resume/cap.svg',
-    title: 'My education',
+    title: 'My Education',
     description: 'I am currently studying computer science at San Diego State University and am expected to graduate in 2026.',
     itemsList: [
         {
@@ -68,8 +68,8 @@ const education = {
 
 // skills data
 const skills = {
-    title: 'My skills',
-    description: 'I have experience with multip;e programing languages and frameworks. I am always looking to learn more and expand my knowledge.',
+    title: 'My Skills',
+    description: 'I have experience with multiple programing languages and frameworks. I am always looking to learn more and expand my knowledge.',
     skillList: [
         {
             icon: <FaHtml5 />,
