@@ -28,13 +28,23 @@ const projects = [
     },
     {
         num:'02',
-        category:'AI',
+        category:'API',
         title:'Voice Assistant',
         description:'An AI voice assistant created using the OpenAI API',
         stack: [{name:'Python'}, {name:'TTS'}, {name:'OpenAI'}],
         image: '/assets/AIprojectphoto.png',
         live: "",
         github: "",
+    },
+    {
+        num:'03',
+        category:'Machine Learning',
+        title:'Jet-Fuel RUL Prediction',
+        description:'This project utilizes machine learning techniques to predict the Remaining Useful Life (RUL) of jet engines using data from engine sensors. ',
+        stack: [{name:'Python'}],
+        image: '/assets/JetEnginePred.jpg',
+        live:"",
+        github: "https://github.com/ningargiola/Jet-Fuel_RUL-Prediction",
     },
 
 ];
