@@ -1,6 +1,6 @@
 "use client";
 
-import {FaHtml5, FaCss3, FaJs, FaReact, FaPython, FaJava, FaCPP} from "react-icons/fa";
+import {FaHtml5, FaJs, FaReact, FaPython, FaJava, FaCPP, FaSwift} from "react-icons/fa";
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
 // about data 
@@ -36,12 +36,17 @@ const about= {
 const experience = {
     icon: 'assets/resume/badge.svg',
     title: 'My Experience',
-    description: 'I worked as a web design intern at Take Trips MES. I was responsible for designing and maintaining the front end of the website. I am currently a CTO for the merchandising company Rage State based out of San Diego California',
+    description: 'I am currently the CEO of Surf El Gulf, leading app and web development (2024-present), previously worked as a Web Designer at Rage State (2023-2024), and began my career as a Web Design Intern at Take Trips MES (2020-2022).',
     items: [
         {
+            company: 'Surf El Gulf',
+            position: 'CEO',
+            duration: "2024-current"
+        },
+        {
             company: 'Rage State',
-            position: 'CTO',
-            duration: "2023-Present"
+            position: 'Web Design',
+            duration: "2023-2024"
         },
         {
             company: 'Take Trips MES',
@@ -76,8 +81,8 @@ const skills = {
             name: 'HTML',
         },
         {
-            icon: <FaCss3 />,
-            name: 'CSS',
+            icon: <FaSwift />,
+            name: 'Swift',
         },
         {
             icon: <FaJs />,
