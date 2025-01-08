@@ -18,13 +18,13 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
     {
         num:'01',
-        category:'Full Stack',
-        title:'Weather App',
-        description:'A weather application that uses real time data (IN PROGRESS)',
-        stack: [{name:'TypeScript'}, {name:'Weather API'}, {name:'Shadcdn'}],
-        image: '/assets/Weatherproject.jpeg',
-        live: "https://nicksweather.vercel.app",
-        github: "https://github.com/ningargiola/weather-app",
+        category:'Front-End Development',
+        title:'Tessarax',
+        description:'My contracting wesbite for me and my team',
+        stack: [{name:'React'}, {name:'Google App Scripts'}, {name:'Shadcdn'}],
+        image: '/assets/tessaraxphoto.png',
+        live: "https://tessarax.net",
+        github: "https://github.com/ningargiola/tessarax",
     },
     {
         num:'02',
